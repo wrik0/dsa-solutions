@@ -38,11 +38,10 @@ class Solution:
             else:
                 piles[res] = nums[i]
 
-        # length of piles acts like a length ledger 
+        # length of piles acts like a length ledger
         # for maintaining size of LIS, not state of
-        # record IMPORTANT 
-        return len(piles) 
+        # record IMPORTANT
+        return len(piles)
 
-        
+
 # @lc code=end
-

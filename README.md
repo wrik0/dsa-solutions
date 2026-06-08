@@ -9,5 +9,6 @@ Python solutions to LeetCode problems.
 | 104 | [Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree.py) | 1 |
 | 112 | [Path Sum](112.path-sum.py) | 1 |
 | 300 | [Longest Increasing Subsequence](300.longest-increasing-subsequence.py) | 1 |
+| 1143 | [Longest Common Subsequence](1143.longest-common-subsequence.py) | 1 |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](309.best-time-to-buy-and-sell-stock-with-cooldown.py) | 1 |
 | 322 | [Coin Change](322.coin-change.py) | 1 |

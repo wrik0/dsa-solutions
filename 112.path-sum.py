@@ -13,9 +13,9 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root, targetSum):
-        if not root: # only enters here for first invocation
+        if not root:  # only enters here for first invocation
             return False
-        if not root.left and not root.right: # leaf node check
+        if not root.left and not root.right:  # leaf node check
             return targetSum == root.val
         return self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(
             root.right, targetSum - root.val

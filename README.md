@@ -4,6 +4,7 @@ Python solutions to LeetCode problems.
 
 | # | Problem | Revision |
 |---|---------|----------|
+| 72 | [Edit Distance](72.edit-distance.py) | 1 |
 | 91 | [Decode Ways](91.decode-ways.py) | 1 |
 | 102 | [Binary Tree Level Order Traversal](102.binary-tree-level-order-traversal.py) | 1 |
 | 104 | [Maximum Depth of Binary Tree](104.maximum-depth-of-binary-tree.py) | 1 |

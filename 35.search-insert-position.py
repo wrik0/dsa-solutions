@@ -1,0 +1,23 @@
+#
+# @lc app=leetcode id=35 lang=python3
+#
+# [35] Search Insert Position
+#
+# Backup fetched on: 2026-06-12 21:03:36
+# Solved on: 2026-03-21 20:05
+#
+
+# @lc code=start
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        l, r = 0, len(nums) - 1
+
+        while l <= r:
+            m = l + (r - l) // 2
+            if nums[m] == target: return m
+            if nums[m] < target: l = m + 1
+            else: r = m - 1
+        
+        return l
+
+# @lc code=end
